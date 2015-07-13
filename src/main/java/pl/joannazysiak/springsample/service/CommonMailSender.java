@@ -7,7 +7,7 @@ import org.apache.commons.logging.LogFactory;
 
 public class CommonMailSender implements MailSender {
 
-	private static final Log LOG = LogFactory.getLog(MockMailSender.class);
+	private static final Log LOG = LogFactory.getLog(CommonMailSender.class);
 
 	private String mailingList;
 	

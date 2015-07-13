@@ -17,7 +17,7 @@ import pl.joannazysiak.springsample.service.MockMailSender;
 @RestController
 public class MailController {
 
-	private static final Log LOG = LogFactory.getLog(MockMailSender.class);
+	private static final Log LOG = LogFactory.getLog(MailController.class);
 	
 	//by type
 	@Autowired private List<MailSender> mailSenders ;
